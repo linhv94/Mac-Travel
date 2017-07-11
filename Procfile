@@ -1,1 +1,1 @@
-web: ./gradlew
+web: npm start

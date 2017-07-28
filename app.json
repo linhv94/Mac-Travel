@@ -1,9 +1,11 @@
 {
   "name": "Mac-Travel",
   "description": "",
-  "scripts": {
-  },
+  "scripts": {},
   "env": {
+    "MESSENGER_APP_ID": {
+      "required": true
+    },
     "MESSENGER_APP_SECRET": {
       "required": true
     },
@@ -11,17 +13,23 @@
       "required": true
     },
     "MESSENGER_VALIDATION_TOKEN": {
+      "value": "mactravel"
+    },
+    "NODE_ENV": {
+      "value": "development"
+    },
+    "FACEBOOK_API_VERSION": {
+      "value": "v2.9"
+    },
+    "FACEBOOK_PAGE_ID": {
       "required": true
     },
     "SERVER_URL": {
       "required": true
     }
   },
-  "formation": {
-  },
-  "addons": [
-
-  ],
+  "formation": {},
+  "addons": [],
   "buildpacks": [
     {
       "url": "heroku/nodejs"

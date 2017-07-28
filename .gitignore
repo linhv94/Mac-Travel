@@ -7,3 +7,4 @@ node_modules
 .DS_Store
 .c9/
 .env
+.idea

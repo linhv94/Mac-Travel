@@ -166,7 +166,7 @@ export function receivedMessage(event) {
                 break;
 
             default:
-                sendTextMessage(senderID, 'Echo text from branch refactor:' + messageText);
+                sendTextMessage(senderID, messageText);
         }
     } else if (messageAttachments) {
         sendTextMessage(senderID, 'Message with attachment received');

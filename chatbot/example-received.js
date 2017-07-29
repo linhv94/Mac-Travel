@@ -166,7 +166,7 @@ export function receivedMessage(event) {
                 break;
 
             default:
-                sendTextMessage(senderID, messageText);
+                sendTextMessage(senderID, 'From Linh Branch' + messageText);
         }
     } else if (messageAttachments) {
         sendTextMessage(senderID, 'Message with attachment received');

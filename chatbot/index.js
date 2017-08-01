@@ -20,6 +20,7 @@ export function messageHandler(data) {
         const timeOfEvent = pageEntry.time;
 
         // Iterate over each messaging event
+        //messaging function
         pageEntry.messaging.forEach(function(messagingEvent) {
             if (messagingEvent.optin) {
                 receivedAuthentication(messagingEvent);
@@ -40,3 +41,4 @@ export function messageHandler(data) {
         });
     });
 }
+
